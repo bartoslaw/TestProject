@@ -15,6 +15,10 @@
 		D3AF8D60258A7E0C006A9C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AF8D5E258A7E0C006A9C66 /* LaunchScreen.storyboard */; };
 		D3AF8D6B258A7E0C006A9C66 /* InterviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF8D6A258A7E0C006A9C66 /* InterviewAppTests.swift */; };
 		D3AF8D76258A7E0C006A9C66 /* InterviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF8D75258A7E0C006A9C66 /* InterviewAppUITests.swift */; };
+		D3AF8D87258A7E36006A9C66 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF8D86258A7E36006A9C66 /* Controller.swift */; };
+		D3AF8D8C258A7E3C006A9C66 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF8D8B258A7E3C006A9C66 /* View.swift */; };
+		D3AF8D9D258A7FC8006A9C66 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF8D9B258A7FC8006A9C66 /* TableViewCell.swift */; };
+		D3AF8D9E258A7FC8006A9C66 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AF8D9C258A7FC8006A9C66 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D3AF8D71258A7E0C006A9C66 /* InterviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF8D75258A7E0C006A9C66 /* InterviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewAppUITests.swift; sourceTree = "<group>"; };
 		D3AF8D77258A7E0C006A9C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AF8D86258A7E36006A9C66 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		D3AF8D8B258A7E3C006A9C66 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D3AF8D9B258A7FC8006A9C66 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D3AF8D9C258A7FC8006A9C66 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				D3AF8D5C258A7E0C006A9C66 /* Assets.xcassets */,
 				D3AF8D5E258A7E0C006A9C66 /* LaunchScreen.storyboard */,
 				D3AF8D61258A7E0C006A9C66 /* Info.plist */,
+				D3AF8D86258A7E36006A9C66 /* Controller.swift */,
+				D3AF8D8B258A7E3C006A9C66 /* View.swift */,
+				D3AF8D9B258A7FC8006A9C66 /* TableViewCell.swift */,
+				D3AF8D9C258A7FC8006A9C66 /* TableViewCell.xib */,
 			);
 			path = InterviewApp;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AF8D60258A7E0C006A9C66 /* LaunchScreen.storyboard in Resources */,
+				D3AF8D9E258A7FC8006A9C66 /* TableViewCell.xib in Resources */,
 				D3AF8D5D258A7E0C006A9C66 /* Assets.xcassets in Resources */,
 				D3AF8D5B258A7E0B006A9C66 /* Main.storyboard in Resources */,
 			);
@@ -260,7 +273,10 @@
 			files = (
 				D3AF8D58258A7E0B006A9C66 /* ViewController.swift in Sources */,
 				D3AF8D54258A7E0B006A9C66 /* AppDelegate.swift in Sources */,
+				D3AF8D8C258A7E3C006A9C66 /* View.swift in Sources */,
+				D3AF8D9D258A7FC8006A9C66 /* TableViewCell.swift in Sources */,
 				D3AF8D56258A7E0B006A9C66 /* SceneDelegate.swift in Sources */,
+				D3AF8D87258A7E36006A9C66 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
